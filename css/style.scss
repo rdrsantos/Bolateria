@@ -1,4 +1,10 @@
 *{margin: 0; padding: 0;}
+img{
+  display: block;
+  max-width: 100%;
+  min-width: 100px;
+
+}
 $roxo-escuro: #2D1935;
 $roxo-claro: #A76EB2;
 $branco: #F9F8F8;
@@ -19,6 +25,7 @@ $fonte2: 'Open Sans', sans-serif;
   max-width: 1000px;
   margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   @include mobi{
@@ -209,4 +216,44 @@ $fonte2: 'Open Sans', sans-serif;
   @include mobi(){
     font-size: em(14);
   }
+}
+
+
+//sobre
+.sobre{
+  padding: 100px 0;
+}
+
+.sobre-imgs{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 500px;
+  @include mobi{
+    width: 100%;
+    padding: 0 10px;
+  }
+}
+.sobre-imgs img:nth-child(2){
+  margin: 0 20px;
+}
+
+.sobre-txt{
+  max-width: 480px;
+  @include mobi{
+    width: 100%;
+    padding: 0 10px;
+  }
+}
+.sobre-txt h2{
+  font-family: $fonte1;
+  font-size: em(36);
+  color: $roxo-claro;
+  margin-bottom: 20px;
+}
+.sobre-txt p{
+  font-family: $fonte2;
+  font-size: em(18);
+  color: $roxo-escuro;
+  line-height: em(30, 18);
 }

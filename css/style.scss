@@ -232,6 +232,7 @@ $fonte2: 'Open Sans', sans-serif;
   @include mobi{
     width: 100%;
     padding: 0 10px;
+    margin-bottom: 20px;
   }
 }
 .sobre-imgs img:nth-child(2){

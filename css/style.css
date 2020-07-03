@@ -29,11 +29,7 @@
   width: 100%;
   padding: 10px 0;
   background-color: #2D1935;
-}
-
-.logo h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #A76EB2;
+  z-index: 100;
 }
 
 .menu {
@@ -80,7 +76,7 @@
 .menu a {
   text-decoration: none;
   color: #A76EB2;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   padding: 10px 15px;
   position: relative;
 }
@@ -174,4 +170,101 @@
 
 #check:checked ~ ul {
   left: 0;
+}
+
+.intro {
+  padding: 170px 0;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../img/final/bg-intro.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #F9F8F8;
+  position: relative;
+}
+
+.intro-conteudo h1 {
+  font-family: "Oleo Script", cursive;
+  font-size: 4.5em;
+}
+
+.intro-conteudo h1::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 5px;
+  margin: 0 auto;
+  background-color: currentColor;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+  .intro-conteudo h1 {
+    font-size: 2.5em;
+  }
+}
+
+.intro-conteudo p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+@media only screen and (max-width: 700px) {
+  .intro-conteudo p {
+    font-size: 1em;
+    padding: 0 10px;
+  }
+}
+
+.btn {
+  padding: 10px 50px;
+  border: 3px solid #2D1935;
+  background-color: transparent;
+  margin-top: 50px;
+  color: #F9F8F8;
+  font-family: "Oleo Script", cursive;
+  text-decoration: none;
+  font-size: 1.25em;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.btn:hover {
+  background-color: #2D1935;
+}
+
+@media only screen and (max-width: 700px) {
+  .btn {
+    font-size: 1em;
+  }
+}
+
+.intro-horario {
+  position: absolute;
+  bottom: 10px;
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.125em;
+}
+
+@media only screen and (max-width: 700px) {
+  .intro-horario {
+    font-size: 0.875em;
+  }
 }

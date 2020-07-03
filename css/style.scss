@@ -54,7 +54,7 @@
   display: inline-block;
   @include mobi{
     display: block;
-    padding: 10px;
+    padding: 20px 0;
   }
 }
 .menu a{

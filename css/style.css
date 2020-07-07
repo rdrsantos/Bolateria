@@ -434,6 +434,14 @@ img {
   padding: 100px 0;
 }
 
+.eventos h2 {
+  font-family: "Oleo Script", cursive;
+  font-size: 2.25em;
+  color: #A76EB2;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
 .evento-item {
   max-width: 490px;
   background-color: #A76EB2;

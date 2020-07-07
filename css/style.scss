@@ -337,6 +337,15 @@ background-color: $roxo-claro;
 .eventos{
   padding: 100px 0;
 }
+
+.eventos h2{
+  font-family: $fonte1;
+  font-size: em(36);
+  color: $roxo-claro;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
 .evento-item{
   max-width: 490px;
   background-color: $roxo-claro;

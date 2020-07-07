@@ -462,3 +462,11 @@ img {
 .evento-item:nth-child(4) {
   max-width: 695px;
 }
+
+.eventos .btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  color: #A76EB2;
+  border-color: #A76EB2;
+}

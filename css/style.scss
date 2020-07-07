@@ -365,3 +365,11 @@ background-color: $roxo-claro;
 .evento-item:nth-child(4){
   max-width: 695px;
 }
+
+.eventos .btn{
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  color: $roxo-claro;
+  border-color: $roxo-claro;
+}

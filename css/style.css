@@ -429,3 +429,28 @@ img {
   color: #2D1935;
   margin-bottom: 20px;
 }
+
+.eventos {
+  padding: 100px 0;
+}
+
+.evento-item {
+  max-width: 490px;
+  background-color: #A76EB2;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.evento-item p {
+  font-family: "Oleo Script", cursive;
+  font-size: 1.125em;
+  padding: 10px 0;
+}
+
+.evento-item:nth-child(3) {
+  max-width: 285px;
+}
+
+.evento-item:nth-child(4) {
+  max-width: 695px;
+}

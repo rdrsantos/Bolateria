@@ -316,6 +316,7 @@ background-color: $roxo-claro;
     margin: 0 10px;
   }
 }
+
 .quebratxt{
   max-width: 490px;
 }
@@ -330,4 +331,28 @@ background-color: $roxo-claro;
   font-size: em(18);
   color: $roxo-escuro;
   margin-bottom: 20px;
+}
+
+//eventos
+.eventos{
+  padding: 100px 0;
+}
+.evento-item{
+  max-width: 490px;
+  background-color: $roxo-claro;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.evento-item p {
+  font-family: $fonte1;
+  font-size: em(18);
+  padding: 10px 0;
+}
+
+.evento-item:nth-child(3){
+  max-width: 285px;
+}
+.evento-item:nth-child(4){
+  max-width: 695px;
 }

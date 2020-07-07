@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 img {
@@ -17,8 +19,9 @@ img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -28,6 +31,8 @@ img {
   .container {
     max-width: 100%;
     padding: 0 10px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
 }
 
@@ -37,6 +42,12 @@ img {
   padding: 10px 0;
   background-color: #2D1935;
   z-index: 100;
+}
+
+.header .container {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .menu {
@@ -290,7 +301,7 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  max-width: 500px;
+  max-width: 490px;
 }
 
 @media only screen and (max-width: 700px) {
@@ -306,7 +317,7 @@ img {
 }
 
 .sobre-txt {
-  max-width: 480px;
+  max-width: 490px;
 }
 
 @media only screen and (max-width: 700px) {
@@ -328,4 +339,65 @@ img {
   font-size: 1.125em;
   color: #2D1935;
   line-height: 1.66667em;
+}
+
+.bolos {
+  padding: 100px 0;
+  text-align: center;
+  background-color: #A76EB2;
+}
+
+.bolos h2 {
+  font-family: "Oleo Script", cursive;
+  color: #2D1935;
+  font-size: 2.25em;
+  margin-bottom: 40px;
+}
+
+.bolos1, .bolos2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .bolos1, .bolos2 {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+.doisbolos div {
+  max-width: 320px;
+  border: 4px solid #2D1935;
+  margin: 20px 20px 20px 0;
+  overflow: hidden;
+}
+
+.bologrande {
+  max-width: 660px;
+  border: 4px solid #2D1935;
+}
+
+.bolos2 div {
+  max-width: 489px;
+  border: 4px solid #2D1935;
+}
+
+.bolos2 div:first-child {
+  margin: 0 20px 0 0;
+}
+
+@media only screen and (max-width: 700px) {
+  .bolos2 div:first-child {
+    margin: 20px 0;
+  }
 }

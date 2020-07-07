@@ -308,3 +308,26 @@ background-color: $roxo-claro;
     margin: 20px 0;
   }
 }
+
+//quebra
+.quebra{
+  padding: 100px 0;
+  @include mobi{
+    margin: 0 10px;
+  }
+}
+.quebratxt{
+  max-width: 490px;
+}
+.quebratxt h2{
+  font-family: $fonte1;
+  font-size: em(36);
+  color: $roxo-claro;
+  margin-bottom: 20px;
+}
+.quebratxt p{
+  font-family: $fonte2;
+  font-size: em(18);
+  color: $roxo-escuro;
+  margin-bottom: 20px;
+}

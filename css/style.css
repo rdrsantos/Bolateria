@@ -401,3 +401,31 @@ img {
     margin: 20px 0;
   }
 }
+
+.quebra {
+  padding: 100px 0;
+}
+
+@media only screen and (max-width: 700px) {
+  .quebra {
+    margin: 0 10px;
+  }
+}
+
+.quebratxt {
+  max-width: 490px;
+}
+
+.quebratxt h2 {
+  font-family: "Oleo Script", cursive;
+  font-size: 2.25em;
+  color: #A76EB2;
+  margin-bottom: 20px;
+}
+
+.quebratxt p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.125em;
+  color: #2D1935;
+  margin-bottom: 20px;
+}

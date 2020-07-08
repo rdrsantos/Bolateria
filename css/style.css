@@ -470,3 +470,75 @@ img {
   color: #A76EB2;
   border-color: #A76EB2;
 }
+
+.footer {
+  padding: 50px 0;
+  background-color: #A76EB2;
+}
+
+.footer h2 {
+  font-family: "Oleo Script", cursive;
+  font-size: 2.25em;
+  color: #2D1935;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.endereco p {
+  font-family: "Oleo Script", cursive;
+  font-size: 1.125em;
+  margin-bottom: 15px;
+}
+
+.redes-sociais {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.redes-sociais a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border: 4px solid #2D1935;
+  text-decoration: none;
+  margin: 0 10px;
+  color: #2D1935;
+  font-size: 1.25em;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.redes-sociais a:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.agradecimento p {
+  font-family: "Oleo Script", cursive;
+  font-size: 1.875em;
+  color: #2D1935;
+}
+
+.copy {
+  padding: 10px;
+  text-align: center;
+  background-color: #2D1935;
+  color: #A76EB2;
+  font-family: "Oleo Script", cursive;
+  font-size: 1.125em;
+}
+
+.copy a {
+  color: currentColor;
+}

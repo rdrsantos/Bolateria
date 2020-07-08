@@ -373,3 +373,63 @@ background-color: $roxo-claro;
   color: $roxo-claro;
   border-color: $roxo-claro;
 }
+
+//footer
+.footer{
+  padding: 50px 0;
+  background-color: $roxo-claro;
+}
+.footer h2{
+  font-family: $fonte1;
+  font-size: em(36);
+  color: $roxo-escuro;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.endereco p{
+  font-family: $fonte1;
+  font-size: em(18);
+  margin-bottom: 15px;
+}
+
+.redes-sociais{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.redes-sociais a{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border: 4px solid $roxo-escuro;
+  text-decoration: none;
+  margin: 0 10px;
+  color: $roxo-escuro;
+  font-size: em(20);
+  transition: .3s;
+  &:hover{
+    transform: translateY(-10px);
+  }
+}
+
+.agradecimento p{
+  font-family: $fonte1;
+  font-size: em(30);
+  color: $roxo-escuro;
+}
+
+.copy{
+  padding: 10px;
+  text-align: center;
+  background-color: $roxo-escuro;
+  color: $roxo-claro;
+  font-family: $fonte1;
+  font-size: em(18);
+}
+.copy a{
+  color: currentColor;
+}

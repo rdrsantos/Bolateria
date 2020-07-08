@@ -542,3 +542,25 @@ img {
 .copy a {
   color: currentColor;
 }
+
+[data-a] {
+  opacity: 0;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+[data-a="left"] {
+  -webkit-transform: translate3d(-50px, 0, 0);
+          transform: translate3d(-50px, 0, 0);
+}
+
+[data-a="right"] {
+  -webkit-transform: translate3d(50px, 0, 0);
+          transform: translate3d(50px, 0, 0);
+}
+
+[data-a].ativo {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}

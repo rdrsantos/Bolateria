@@ -433,3 +433,20 @@ background-color: $roxo-claro;
 .copy a{
   color: currentColor;
 }
+
+//animações
+[data-a]{
+  opacity: 0;
+  transition: .3s;
+}
+
+[data-a="left"]{
+  transform: translate3d(-50px,0,0);
+}
+[data-a="right"]{
+  transform: translate3d(50px,0,0);
+}
+[data-a].ativo{
+  opacity: 1;
+  transform: translate3d(0,0,0);
+}

@@ -28,7 +28,7 @@ $fonte2: 'Open Sans', sans-serif;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  overflow-x: hidden;
+  overflow: hidden;
   @include mobi{
     max-width: 100%;
     padding: 0 10px;
@@ -50,6 +50,7 @@ $fonte2: 'Open Sans', sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  overflow: hidden;
 }
 
 .menu ul{
@@ -266,8 +267,8 @@ $fonte2: 'Open Sans', sans-serif;
 //bolos
 .bolos{
   padding: 100px 0;
-text-align: center;
-background-color: $roxo-claro;
+  text-align: center;
+  background-color: $roxo-claro;
 }
 
 .bolos h2{
